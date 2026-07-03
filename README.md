@@ -1,11 +1,10 @@
 # Used-Car-Price-Prediction-ML-Regression-Pipeline
 
-**📋 Overview**
+###📋 Overview
 
 An end-to-end machine learning regression pipeline built to predict used car prices. The project covers the complete ML workflow — from data cleaning and preprocessing to model training, hyperparameter tuning, evaluation, and deployment-ready serialization.
 
-**🎯 Objectives**
-
+###🎯 Objectives
 
 Perform exploratory data analysis on the used_cars.csv dataset
 Handle missing values, encode categorical variables, and scale numeric features
@@ -14,7 +13,7 @@ Use cross-validated R² scores to select the best-performing model while keeping
 Serialize the final model for future deployment
 
 
-🛠️ Tools & Libraries
+###🛠️ Tools & Libraries
 
 
 Python, Pandas, NumPy
@@ -23,7 +22,7 @@ Scikit-learn — train_test_split, StandardScaler, LinearRegression, RidgeCV, La
 Joblib — model serialization
 
 
-🔍 Methodology
+###🔍 Methodology
 
 
 EDA — Explored dataset structure, visualized the target variable (price) distribution, and generated a correlation heatmap of numerical features
@@ -41,19 +40,19 @@ Model Comparison — Compared all models using mean cross-validated R² scores. 
 Final Evaluation — Evaluated the winning model on the untouched test set and exported it via joblib
 
 
-📊 Results
+###📊 Results
 
 MetricScoreSelected ModelRidge Regression (No Polynomial Expansion)Test Set R² Score0.2890 (28.90%)Test Set RMSE$2,074.15
 
 Key takeaway: With a small dataset and high-dimensional one-hot encoded features, simpler regularized models (Ridge) generalized far better than complex polynomial expansions, which overfit the training data.
 
-📁 Repository Structure
+###📁 Repository Structure
 
 ├── WeekAssignment2_RAFIA_RAMEEN.ipynb   # Main analysis & modeling notebook
 ├── used_cars_model.pkl                   # Serialized final Ridge Regression model
 └── README.md
 
-🚀 How to Run
+###🚀 How to Run
 
 
 Clone this repository
