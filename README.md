@@ -1,9 +1,10 @@
 # Used-Car-Price-Prediction-ML-Regression-Pipeline
-📋 Overview
+
+**📋 Overview**
 
 An end-to-end machine learning regression pipeline built to predict used car prices. The project covers the complete ML workflow — from data cleaning and preprocessing to model training, hyperparameter tuning, evaluation, and deployment-ready serialization.
 
-🎯 Objectives
+**🎯 Objectives**
 
 
 Perform exploratory data analysis on the used_cars.csv dataset
